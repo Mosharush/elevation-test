@@ -1,0 +1,11 @@
+{
+  "name": "elevation-test",
+  "version": "1.0.0",
+  "author": "Moshe Harush",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "libs/*",
+    "solutions/*"
+  ]
+}

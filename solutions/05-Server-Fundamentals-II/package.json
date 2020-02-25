@@ -1,0 +1,11 @@
+{
+  "name": "05-Server-Fundamentals-II",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Moshe Harush",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "node ."
+  }
+}
