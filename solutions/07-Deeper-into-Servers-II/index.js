@@ -19,7 +19,6 @@ const checkLimitAccess = ({ res, next }) => {
     if ( ! allowAccess ) {
         res.json({
             error: "Too many requests",
-            counter: globalCounter
         });
         return res.end()
     }
