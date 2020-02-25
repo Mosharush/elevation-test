@@ -1,0 +1,14 @@
+{
+  "name": "07-Deeper-into-Servers-II",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Moshe Harush",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "node ."
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
