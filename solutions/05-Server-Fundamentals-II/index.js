@@ -16,7 +16,11 @@ get( '/sanity', ({res}) => res.send('OK') );
 get( '/books', ({res}) => res.json(books));
 
 get( '/books/:index', (req, res ) => {
-    res.json( books[ req.params.index ] || null );
+    const theBook = books[ req.params.index ] || null;
+    res.status( theBook ? 200 : 404);
+
+    res.json( theBook );
+
 });
 
 post( '/book', (req, res) => {
